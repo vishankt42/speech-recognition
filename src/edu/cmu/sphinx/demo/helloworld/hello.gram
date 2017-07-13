@@ -1,0 +1,14 @@
+
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar for Hello World example
+ */
+
+grammar hello;
+
+public <greet> = (Good morning | Hello) ( Robin | Lord | Philip | Martin | Edward | Tom );
+
+public <command> = (Open | close) (command |frame | paint | browser | program | calculator | task manager | pad);
+
+public <net> = (site) (Robin | go girl | mail);
